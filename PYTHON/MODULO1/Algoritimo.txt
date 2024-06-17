@@ -1,0 +1,96 @@
+
+Dissertativa
+O truque da tabuada do 9 é uma técnica simples e eficaz para calcular o resultado da multiplicação do 9 por qualquer valor n. A solução é baseada em dividir o processo em dois passos: calcular o primeiro dígito (a dezena) e o segundo dígito (a unidade).
+Para calcular o primeiro dígito, basta subtrair 1 do valor n. Isso é feito para obter o valor que será multiplicado por 10.
+O segundo dígito é calculado como 10 menos o valor n. Isso é feito para obter o valor que será adicionado ao primeiro dígito.
+Finalmente, o resultado é calculado multiplicando o primeiro dígito por 10 e somando o segundo dígito
+
+1. Leia e armazene o número n que se deseja multiplicar po 9 #Entrada
+2. Subtrair n-1 e armazenar como primeiro dígito n1 #processamento
+3. Sbubtrair 10-n armazenar como o segundo dígito n2 #processamento
+4. Realize a expressão (n1 x10) + n2 e armagene como resultado final r #processamento
+5. Apresente r (o resultado final) e encerre o programa #saída.
+
+
+Fluxograma
+graph LR
+    A[Entrada: Valor n] --> B[Calcule o primeiro dígito]
+    B --> C[Subtrair 1 do valor n]
+    C --> D[Calcule o segundo dígito]
+    D --> E[10 menos o valor n]
+    E --> F[Calcule o resultado]
+    F --> G[Multiplique o primeiro dígito por 10]
+    G --> H[Soma o segundo dígito]
+    H --> I[Resultado final]
+    I --> J[Saída: Resultado da multiplicação]
+
+
+Pseudocódigo
+// Entrada: Valor n
+n = ler valor
+
+// Calcule o primeiro dígito
+digito1 = n - 1
+
+// Calcule o segundo dígito
+digito2 = 10 - n
+
+// Calcule o resultado
+resultado = digito1 * 10 + digito2
+
+// Saída: Resultado da multiplicação
+imprimir resultado
+
+Arquivos para Submissão
+dissertativa.txt
+
+O truque da tabuada do 9 é uma técnica simples e eficaz para calcular o resultado da multiplicação do 9 por qualquer valor n. A solução é baseada em dividir o processo em dois passos: calcular o primeiro dígito (a dezena) e o segundo dígito (a unidade).
+
+Para calcular o primeiro dígito, basta subtrair 1 do valor n. Isso é feito para obter o valor que será multiplicado por 10.
+
+O segundo dígito é calculado como 10 menos o valor n. Isso é feito para obter o valor que será adicionado ao primeiro dígito.
+
+Finalmente, o resultado é calculado multiplicando o primeiro dígito por 10 e somando o segundo dígito.
+
+
+
+Arquivos para Submissão
+dissertativa.txt
+O truque da tabuada do 9 é uma técnica simples e eficaz para calcular o resultado da multiplicação do 9 por qualquer valor n. A solução é baseada em dividir o processo em dois passos: calcular o primeiro dígito (a dezena) e o segundo dígito (a unidade).
+
+Para calcular o primeiro dígito, basta subtrair 1 do valor n. Isso é feito para obter o valor que será multiplicado por 10.
+
+O segundo dígito é calculado como 10 menos o valor n. Isso é feito para obter o valor que será adicionado ao primeiro dígito.
+
+Finalmente, o resultado é calculado multiplicando o primeiro dígito por 10 e somando o segundo dígito.
+
+
+
+
+Arquivos para Submissão
+dissertativa.txt
+O truque da tabuada do 9 é uma técnica simples e eficaz para calcular o resultado da multiplicação do 9 por qualquer valor n. A solução é baseada em dividir o processo em dois passos: calcular o primeiro dígito (a dezena) e o segundo dígito (a unidade).
+
+Para calcular o primeiro dígito, basta subtrair 1 do valor n. Isso é feito para obter o valor que será multiplicado por 10.
+
+O segundo dígito é calculado como 10 menos o valor n. Isso é feito para obter o valor que será adicionado ao primeiro dígito.
+
+Finalmente, o resultado é calculado multiplicando o primeiro dígito por 10 e somando o segundo dígito.
+
+
+pseudocodigo.txt
+// Entrada: Valor n
+n = ler valor
+
+// Calcule o primeiro dígito
+digito1 = n - 1
+
+// Calcule o segundo dígito
+digito2 = 10 - n
+
+// Calcule o resultado
+resultado = digito1 * 10 + digito2
+
+// Saída: Resultado da multiplicação
+imprimir resultado
+fluxograma.jpg (arquivo de imagem com o fluxograma)
